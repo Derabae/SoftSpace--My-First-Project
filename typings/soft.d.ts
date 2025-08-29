@@ -18,5 +18,5 @@ declare interface postType {
 }
 
 declare interface newPostType {
-	handleAuthCallback(then: any, session: any, condition: any, session2: any): void;
+	handleAuthCallback(then: any, session: any, if: any, session: any): void;
 }
